@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    background-color: rgb(64, 64, 64);
+}
+
+.caption, .time {
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.countdownCap, .hour {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Tahoma;
+}
+
+.main {
+    background-color: rgb(48, 48, 48);
+    height: 884px;
+    overflow: hidden;
+}
+
+.input {
+    padding: 50px;
+    padding-left: 0;
+    padding-right: 0; 
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.dateInput {
+    width: 20%;
+    height: 50px;
+    border: 3px solid rgb(150, 150, 150);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.inputCaption {
+    color: gray;
+    font-size: 15px;
+}
+
+.date {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.days, .hours, .minutes, .seconds {
+    border: 3px solid rgb(150, 150, 150);
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restart, .start {
+    color: lightskyblue;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    margin: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: white;
+    transition: 300ms;
+}
+
+.restart:hover, .start:hover {
+    cursor: pointer;
+    box-shadow: 10px 5px 5px rgba(255, 255, 255, 0.15);
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+    padding-top: 30px;
+    height: 20px;
+}
